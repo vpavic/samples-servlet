@@ -1,0 +1,5 @@
+= Samples: Servlet Web Applications
+
+image:https://github.com/vpavic/samples-servlet/actions/workflows/build.yml/badge.svg["Build", link="https://github.com/vpavic/samples-servlet/actions/workflows/build.yml"]
+
+This repository contains sample applications that showcase basic Servlet functionalities using different Servlet containers.

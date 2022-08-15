@@ -1,0 +1,12 @@
+plugins {
+    id("sample.java-conventions")
+    id("application")
+}
+
+application {
+    mainClass = "sample.SampleTomcatApplication"
+}
+
+dependencies {
+    implementation("org.apache.tomcat.embed:tomcat-embed-core:10.0.+")
+}
