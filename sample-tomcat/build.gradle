@@ -8,5 +8,6 @@ application {
 }
 
 dependencies {
+    implementation(project(":sample-base"))
     implementation("org.apache.tomcat.embed:tomcat-embed-core:10.0.+")
 }
