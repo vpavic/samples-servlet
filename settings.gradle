@@ -1,4 +1,4 @@
 rootProject.name = "samples-servlet"
 
 includeBuild("sample-build-conventions")
-include("sample-servlet-tomcat")
+include("sample-tomcat")
