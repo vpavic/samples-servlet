@@ -1,0 +1,14 @@
+plugins {
+    id("sample.java-conventions")
+    id("application")
+}
+
+application {
+    mainClass = "sample.SampleJettyApplication"
+}
+
+dependencies {
+    implementation(platform("org.eclipse.jetty:jetty-bom:11.0.+"))
+    implementation(project(":sample-base"))
+    implementation("org.eclipse.jetty:jetty-servlet")
+}
