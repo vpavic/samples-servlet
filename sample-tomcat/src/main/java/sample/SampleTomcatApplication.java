@@ -12,10 +12,7 @@ public class SampleTomcatApplication {
     public static void main(String[] args) throws LifecycleException {
         Tomcat tomcat = new Tomcat();
         tomcat.setBaseDir(System.getProperty("java.io.tmpdir"));
-        String port = System.getenv("PORT");
-        if (port != null) {
-            tomcat.setPort(Integer.parseInt(port));
-        }
+        tomcat.setPort(PortSupplier.get());
         Context context = tomcat.addContext("", new File(".").getAbsolutePath());
         registerServlet(context, "home", new HomeServlet(), "");
         registerServlet(context, "helloWorld", new HelloWorldServlet(), "/hello");
