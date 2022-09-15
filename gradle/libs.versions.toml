@@ -1,0 +1,10 @@
+[versions]
+jetty = "11.0.+"
+servlet-api = "5.0.+"
+tomcat = "10.0.+"
+
+[libraries]
+jetty-bom = { module = "org.eclipse.jetty:jetty-bom", version.ref = "jetty" }
+jetty-servlet = { module = "org.eclipse.jetty:jetty-servlet" }
+servlet-api = { module = "jakarta.servlet:jakarta.servlet-api", version.ref = "servlet-api" }
+tomcat-embed-core = { module = "org.apache.tomcat.embed:tomcat-embed-core", version.ref = "tomcat" }

@@ -8,7 +8,7 @@ application {
 }
 
 dependencies {
-    implementation(platform("org.eclipse.jetty:jetty-bom:11.0.+"))
-    implementation(project(":sample-base"))
-    implementation("org.eclipse.jetty:jetty-servlet")
+    implementation(platform(libs.jetty.bom))
+    implementation(projects.sampleBase)
+    implementation(libs.jetty.servlet)
 }
