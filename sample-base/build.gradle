@@ -1,3 +1,0 @@
-plugins {
-    id("sample.java-conventions")
-}

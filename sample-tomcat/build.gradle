@@ -1,5 +1,5 @@
 plugins {
-    id("sample.java-conventions")
+    id("sample.java-convention")
     id("application")
 }
 
@@ -8,6 +8,6 @@ application {
 }
 
 dependencies {
-    implementation(projects.sampleBase)
+    implementation(projects.sampleSupport)
     implementation(libs.tomcat.embed.core)
 }
