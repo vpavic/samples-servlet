@@ -1,5 +1,5 @@
 [versions]
-jetty = "12.0.0.alpha1"
+jetty = "12.0.0.alpha2"
 servlet-api = "6.0.0"
 tomcat = "10.1.1"
 
