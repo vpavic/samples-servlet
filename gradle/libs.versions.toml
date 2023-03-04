@@ -1,7 +1,7 @@
 [versions]
 jetty = "12.0.0.beta0"
 servlet-api = "6.0.0"
-tomcat = "10.1.6"
+tomcat = "10.1.7"
 
 [libraries]
 jetty-bom = { module = "org.eclipse.jetty.ee10:jetty-ee10-bom", version.ref = "jetty" }
