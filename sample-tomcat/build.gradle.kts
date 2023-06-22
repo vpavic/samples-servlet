@@ -1,10 +1,10 @@
 plugins {
     id("sample.java-convention")
-    id("application")
+    application
 }
 
 application {
-    mainClass = "sample.SampleTomcatApplication"
+    mainClass.set("sample.SampleTomcatApplication")
 }
 
 dependencies {

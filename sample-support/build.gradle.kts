@@ -1,4 +1,4 @@
 plugins {
     id("sample.java-convention")
-    id("java-library")
+    `java-library`
 }

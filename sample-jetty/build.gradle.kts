@@ -1,10 +1,10 @@
 plugins {
     id("sample.java-convention")
-    id("application")
+    application
 }
 
 application {
-    mainClass = "sample.SampleJettyApplication"
+    mainClass.set("sample.SampleJettyApplication")
 }
 
 dependencies {
